@@ -1,6 +1,6 @@
 <h2 align="center">SHRP device configuration for POCO M3/Redmi 9T (chime)</h2>
 
-![banner-image](https://raw.githubusercontent.com/itsHanibee/device_xiaomi_chime-recovery/shrp-12.1/assets/banner.png)
+![banner-image](https://raw.githubusercontent.com/itsHanibee/device_xiaomi_chime-recovery/shrp-12.1/assets/banner.jpg)
 
 ### Information
 
