@@ -113,7 +113,7 @@ TW_INCLUDE_PYTHON := true
 
 # SHRP Specific
 SHRP_PATH := device/xiaomi/chime
-SHRP_MAINTAINER := hani
+SHRP_MAINTAINER := hani (@itsHanibee)
 SHRP_DEVICE_CODE := chime
 SHRP_OFFICIAL := false
 SHRP_INTERNAL := /sdcard
@@ -127,6 +127,8 @@ SHRP_EXPRESS := true
 SHRP_EXPRESS_USE_DATA := true
 SHRP_DARK := true
 SHRP_NOTCH := true
+SHRP_STATUSBAR_RIGHT_PADDING := 25
+SHRP_STATUSBAR_LEFT_PADDING := 25
 
 #SHRP Addons
 SHRP_SKIP_DEFAULT_ADDON_1 := true
@@ -136,15 +138,22 @@ SHRP_SKIP_DEFAULT_ADDON_4 := true
 SHRP_EXTERNAL_ADDON_PATH := $(DEVICE_PATH)/addons/
 
 SHRP_EXTERNAL_ADDON_1_NAME := "dynDFE for FBEv1"
-SHRP_EXTERNAL_ADDON_1_INFO := "Run this if you want to use a rom with FBEv1 encryption decrypted"
+SHRP_EXTERNAL_ADDON_1_INFO := "Disable FBEv1 on an encryption enabled ROM"
 SHRP_EXTERNAL_ADDON_1_FILENAME := dynDFE_v5-FBEv1.zip
 SHRP_EXTERNAL_ADDON_1_BTN_TEXT := Decrypt!
-SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := Disabled
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := Successfully Disabled!
 SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
 
 SHRP_EXTERNAL_ADDON_2_NAME := "dynDFE for FBEv2"
-SHRP_EXTERNAL_ADDON_2_INFO := "Run this if you want to use a rom with FBEv2 encryption decrypted"
+SHRP_EXTERNAL_ADDON_2_INFO := "Disable FBEv2 on an encryption enabled ROM"
 SHRP_EXTERNAL_ADDON_2_FILENAME := dynDFE_v6-FBEv2.zip
 SHRP_EXTERNAL_ADDON_2_BTN_TEXT := Decrypt!
-SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := Disabled
+SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := Successfully Disabled!
 SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
+
+SHRP_EXTERNAL_ADDON_3_NAME := "Unlock Lockscreen"
+SHRP_EXTERNAL_ADDON_3_INFO := "Remove security measure on your Android Lockscreen"
+SHRP_EXTERNAL_ADDON_3_FILENAME := scr-unlock.zip
+SHRP_EXTERNAL_ADDON_3_BTN_TEXT := Unlock!
+SHRP_EXTERNAL_ADDON_3_SUCCESSFUL_TEXT := Disabled Successfully!
+SHRP_INC_IN_REC_EXTERNAL_ADDON_3 := true
