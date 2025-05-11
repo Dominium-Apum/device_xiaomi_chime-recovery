@@ -79,7 +79,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# R11.3 Settings
 	export FOX_MAINTAINER_PATCH_VERSION="9"
 	export OF_MAINTAINER="itsHanibee"
-        export OF_MAINTAINER_AVATAR="$(DEVICE_PATH)/hani.png"
+        export OF_MAINTAINER_AVATAR="device/xiaomi/chime/hani.png"
 
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
